@@ -1,0 +1,6 @@
+sudo virt-install \
+    --name Ascender --memory 4096 --vcpus 4 \
+    --disk path=/home/bravo/virt-images/ascender.qcow2,format=qcow2,size=60 \
+    --os-variant rocky9 --location /home/bravo/isos/Rocky-9.6-x86_64-minimal.iso \
+    --network=default \
+    --graphics none --extra-args='console=ttyS0'
