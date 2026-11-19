@@ -1,6 +1,6 @@
 sudo virt-install \
     --name ol98teste \
-    --memory 4096 \
+    --memory 8192 \
     --vcpus 2 \
     --graphics none \
     --boot uefi \
